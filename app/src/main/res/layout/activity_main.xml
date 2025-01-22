@@ -5,26 +5,37 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp"
+    android:background="#F4F4F9"
     android:id="@+id/main">
 
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bienvenido a Cargador App"
-        android:textSize="30sp"
+        android:text="¡Bienvenido a Cargador App!"
+        android:textSize="32sp"
         android:gravity="center"
         android:textStyle="bold"
-        android:textColor="#FF5733"
-        android:layout_marginBottom="24dp"/>
+        android:textColor="#FF9800"
+        android:shadowColor="#8B4513"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Conéctalo y obtén la mejor experiencia de carga."
-        android:textSize="28sp"
+        android:textSize="22sp"
         android:textColor="#4CAF50"
         android:gravity="center"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:paddingHorizontal="10dp"
+        android:lineSpacingExtra="4dp"
+        android:shadowColor="#B0B0B0"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"/>
 
 </LinearLayout>
